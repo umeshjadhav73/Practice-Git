@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-28T12:36:50 IST" name="Suite1" finished-at="2021-02-28T12:36:51 IST" duration-ms="827">
+    <groups>
+    </groups>
+    <test started-at="2021-02-28T12:36:50 IST" name="MY Test" finished-at="2021-02-28T12:36:51 IST" duration-ms="827">
+      <class name="test.NewTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.NewTest@13b13b5d]" started-at="2021-02-28T12:36:50 IST" name="setUp" finished-at="2021-02-28T12:36:50 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getTestName(java.lang.reflect.Method)[pri:0, instance:test.NewTest@13b13b5d]" started-at="2021-02-28T12:36:50 IST" name="getTestName" finished-at="2021-02-28T12:36:50 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.NewTest.firstTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestName -->
+        <test-method signature="firstTest()[pri:0, instance:test.NewTest@13b13b5d]" started-at="2021-02-28T12:36:50 IST" name="firstTest" finished-at="2021-02-28T12:36:50 IST" duration-ms="13" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [sac1hin] but found [sachin]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [sac1hin] but found [sachin]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at test.NewTest.firstTest(NewTest.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method is-config="true" signature="collectResult(org.testng.ITestResult)[pri:0, instance:test.NewTest@13b13b5d]" started-at="2021-02-28T12:36:50 IST" name="collectResult" finished-at="2021-02-28T12:36:50 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstTest status=FAILURE method=NewTest.firstTest()[pri:0, instance:test.NewTest@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectResult -->
+        <test-method is-config="true" signature="getTestName(java.lang.reflect.Method)[pri:0, instance:test.NewTest@13b13b5d]" started-at="2021-02-28T12:36:50 IST" name="getTestName" finished-at="2021-02-28T12:36:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.NewTest.secondTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestName -->
+        <test-method signature="secondTest()[pri:0, instance:test.NewTest@13b13b5d]" started-at="2021-02-28T12:36:50 IST" name="secondTest" finished-at="2021-02-28T12:36:50 IST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [sac1hin] but found [sachin]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [sac1hin] but found [sachin]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at test.NewTest.secondTest(NewTest.java:75)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method is-config="true" signature="collectResult(org.testng.ITestResult)[pri:0, instance:test.NewTest@13b13b5d]" started-at="2021-02-28T12:36:50 IST" name="collectResult" finished-at="2021-02-28T12:36:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=secondTest status=FAILURE method=NewTest.secondTest()[pri:0, instance:test.NewTest@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectResult -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:test.NewTest@13b13b5d]" started-at="2021-02-28T12:36:50 IST" name="flushReport" finished-at="2021-02-28T12:36:51 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method is-config="true" signature="endSetUp()[pri:0, instance:test.NewTest@13b13b5d]" started-at="2021-02-28T12:36:51 IST" name="endSetUp" finished-at="2021-02-28T12:36:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSetUp -->
+      </class> <!-- test.NewTest -->
+      <class name="test.NewTest2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.NewTest2@2892dae4]" started-at="2021-02-28T12:36:51 IST" name="setUp" finished-at="2021-02-28T12:36:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getTestName(java.lang.reflect.Method)[pri:0, instance:test.NewTest2@2892dae4]" started-at="2021-02-28T12:36:51 IST" name="getTestName" finished-at="2021-02-28T12:36:51 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.NewTest2.firstTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestName -->
+        <test-method signature="firstTest()[pri:0, instance:test.NewTest2@2892dae4]" started-at="2021-02-28T12:36:51 IST" name="firstTest" finished-at="2021-02-28T12:36:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method is-config="true" signature="collectResult(org.testng.ITestResult)[pri:0, instance:test.NewTest2@2892dae4]" started-at="2021-02-28T12:36:51 IST" name="collectResult" finished-at="2021-02-28T12:36:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstTest status=SUCCESS method=NewTest2.firstTest()[pri:0, instance:test.NewTest2@2892dae4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectResult -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:test.NewTest2@2892dae4]" started-at="2021-02-28T12:36:51 IST" name="flushReport" finished-at="2021-02-28T12:36:51 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method is-config="true" signature="endSetUp()[pri:0, instance:test.NewTest2@2892dae4]" started-at="2021-02-28T12:36:51 IST" name="endSetUp" finished-at="2021-02-28T12:36:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSetUp -->
+      </class> <!-- test.NewTest2 -->
+    </test> <!-- MY Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>
